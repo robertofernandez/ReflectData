@@ -3,8 +3,8 @@ package jatx.reflectdata.mysql;
 public class Const {
     public static final String STRING_QUERY_ENDING = ";";
     public static final String STRING_GLUE = ", ";
-    public static final String STRING_BEFORE_NAME = "`";
-    public static final String STRING_AFTER_NAME = "`";
+    public static final String STRING_BEFORE_NAME = "";
+    public static final String STRING_AFTER_NAME = "";
     public static final String STRING_ASSIGN = "=";
     public static final String STRING_VAR = "?";
     public static final String STRING_BOOL = " BOOL";
@@ -15,7 +15,8 @@ public class Const {
     public static final String STRING_FLOAT = " FLOAT";
     public static final String STRING_DOUBLE = " DOUBLE";
     public static final String STRING_CHAR = " CHAR";
-    public static final String STRING_VARCHAR = " VARCHAR";
+    //public static final String STRING_VARCHAR = " VARCHAR";
+    public static final String STRING_VARCHAR = " character varying";
     public static final String STRING_TEXT = " TEXT";
     public static final String STRING_NULL = "null";
     public static final String STRING_NOT_NULL = " NOT NULL";

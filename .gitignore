@@ -1,2 +1,5 @@
 */target/*
 */build/*
+/ReflectMySQL/.classpath
+/ReflectMySQL/.project
+/ReflectMySQL/.settings

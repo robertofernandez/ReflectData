@@ -169,9 +169,9 @@ public class Column {
     public String toString() {
         StringBuilder result = new StringBuilder();
 
-        result.append("`");
+        //result.append("`");
         result.append(name);
-        result.append("`");
+        //result.append("`");
         result.append(columnType.toString());
         if (columnType == ColumnType.CHAR) {
             result.append("(1)");
