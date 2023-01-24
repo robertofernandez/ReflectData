@@ -147,8 +147,8 @@ public class QueryGenerator {
         String query = generateInsertQuery(object);
         String className = clazz.getSimpleName();
         String objectName = com.willdom.util.strings.StringUtils.lowerCaseFirst(className);
-        String output = "public void insert" + className + "(Connection connection, " + clazz.getName();
-        output += " " + objectName + ") throws SQLException {";
+        String output = "public void insert" + className + "(Connection connection, " + className;
+        output += " " + objectName + ") throws SQLException {\n";
         output += "PreparedStatement statement = null;\n";
         output += "String sql = \"" + query + "\";\n";
         output += "statement = connection.prepareStatement(sql);\n";
